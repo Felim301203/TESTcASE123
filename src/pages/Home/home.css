@@ -1,0 +1,39 @@
+ul {
+    width: 100%;
+    padding-left: 0;
+}
+
+h2{
+    margin: 2rem;
+}
+
+li{
+    list-style-type: none;
+    background-color: blue;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+button{
+    color: white;
+    margin-inline: 0.5rem
+}
+
+.update{
+    background-color: #FFCC00;
+}
+
+.delete{
+    background-color: red;
+}
+
+.add{
+    background-color: #a2d2ff;
+    margin-left: 2rem
+}
